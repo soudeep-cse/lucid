@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header {
+    background-image: url(../images/header-bg-img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    padding-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    position: relative;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: '';
+    bottom: -10px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #008ed6;
+    position: absolute;
+    transition: .5s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: '';
+    bottom: -10px;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background-color: #008ed6;
+    position: absolute;
+    transition: .5s all ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 47%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 47%;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.banner {
+    height: 80vh;
+    align-items: center;
+}
+
+.banner h5 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner h1 {
+    color: #fff;
+    padding: 22px 0;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner p {
+    font-size: 23px;
+    color: #999999;
+    line-height: 32px;
+    padding-bottom: 20px;
+}
+
+.btn-download {
+    padding: 0;
+    padding: 14px 20px;
+    background: #008ed6;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.btn-download:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #999999;
+    border-radius: 5px;
+}
+
+.btn-features {
+    padding: 0;
+    padding: 14px 20px;
+    border: 1px;
+    border: 2px solid #999999;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.btn-features:hover {
+    color: #fff;
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    border-radius: 5px;
+}
+
+.btn-features:focus{
+    /* outline: 0; */
+    /* box-shadow: none; */
+}
+.btn-features:hover:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.images {
+    position: absolute;
+    bottom: 0;
+}
+
+/* header */
+
+/* Product overview */
+
+.overview {
+    padding: 70px 0;
+    border-bottom: 1px solid #999999;
+}
+
+.same-design {
+    padding: 50px 0;
+}
+
+.same-design span {
+    display: inline-block;
+    height: 3px;
+    width: 60px;
+    position: relative;
+}
+
+.same-design span::before {
+    content: '';
+    bottom: 0;
+    left: 0;
+    background-color: #008ed6;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    transition: .5s all ease-in-out;
+}
+
+.same-design span::after {
+    content: '';
+    bottom: 0;
+    right: 0;
+    background-color: #008ed6;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    transition: .5s all ease-in-out;
+}
+
+.overview:hover .same-design span::before {
+    width: 47%;
+}
+
+.overview:hover .same-design span::after {
+    width: 47%;
+}
+
+.same-design h1 {
+    text-transform: uppercase;
+    padding-top: 22px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.same-design h5 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.overview i {
+    height: 70px;
+    width: 70px;
+    font-size: 28px;
+    border: 1px solid #e0e0e0;
+    line-height: 70px;
+    border-radius: 50%;
+    color: #008ed6;
+}
+
+.overview h2 {
+    padding: 10px 0;
+    color: #1a1a1a;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.overview p {
+    padding-bottom: 15px;
+    color: #999999;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+/* Product overview */
+
+/* Beautifil device */
+
+.Beautiful-on-device {
+    padding: 60px 0;
+}
+
+.Beautiful-on-device img {}
+
+.same-design1 {}
+
+.same-design1 span {
+    display: inline-block;
+    height: 3px;
+    width: 60px;
+    position: relative;
+}
+
+.same-design1 span::before {
+    content: ' ';
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #008ed6;
+    position: absolute;
+    transition: .5s all ease-in-out;
+}
+
+.same-design1 span::after {
+    content: ' ';
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background-color: #008ed6;
+    position: absolute;
+    transition: .5s all ease-in-out;
+}
+
+.Beautiful-on-device:hover .same-design1 span::before {
+    width: 47%;
+}
+
+.Beautiful-on-device:hover .same-design1 span::after {
+    width: 47%;
+}
+
+.same-design1 h5 {
+    text-transform: uppercase;
+    color: #008ed6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.same-design1 p {
+    color: #999999;
+    font-size: 23px;
+    line-height: 32px;
+    padding: 20px 0;
+}
+
+.same-design1 h1 {
+    color: #1a1a1a;
+    font-weight: 700;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Beautiful-on-device i {
+    color: #008ed6;
+    font-size: 20px;
+}
+.Beautiful-on-device span{
+    
+padding-left: 10px;
+    
+font-size: 20px;
+    
+font-family: 'Source Sans Pro', sans-serif;
+}
+.Beautiful-on-device span .icon-responsive{
+    
+}
+
+/* Beautifil device */
+
+/* Easy customization */
+
+.easy-customization {
+    background: #f2f2f2;
+    padding-top: 120px;
+}
+.easy-customization span::before {}
+.easy-customization span::after {}
+
+.easy-customization:hover .same-design1 span::before{
+    width: 47%;
+}
+.easy-customization:hover .same-design1 span::after{
+    width: 47%;
+}
+/* Easy customization */
